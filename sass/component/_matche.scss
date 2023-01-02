@@ -1,0 +1,65 @@
+.matche_bg{
+    background-color: #121212; 
+}
+
+.mtch_left{
+    background-color: #212121;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.matche_head h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.matche_main{
+    padding-bottom: 50px;
+}
+
+.mtch_logo img{
+    margin: 7px 0;
+}
+
+.mtch_text h4{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-right: 56px;
+}
+
+.matche_count span{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: 0.15em;
+    color: #fff;
+}
+
+.mtch_right{
+    background-color: #212121;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+.mtch_logotow img{
+    margin: 7px 0;
+}
+
+.mtch_texttow h4{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-left: 56px;
+}

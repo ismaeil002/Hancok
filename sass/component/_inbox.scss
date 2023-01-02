@@ -1,0 +1,88 @@
+.inbox_bg{
+    background: linear-gradient(180deg, rgba(18,18,18,1) 50%, rgba(25,25,25,1) 50%);
+    padding: 30px 0;
+}
+
+.subscribe_bg{
+    background-color: #FF4655;
+}
+
+.inbox_text h2{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin: 35px 0 35px 30px;
+    color: #FFFFFF;
+}
+
+.inbox_email{
+    position: relative;
+}
+
+.inbox_email input{
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    width: 400px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #191919;
+}
+
+
+.inbox_email input::placeholder{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #666666;
+    opacity: 1;
+}
+
+.inbox_btn button{
+    position: absolute;
+    top: 0;
+    right: 16px;
+    border: none;
+    padding: 13px 28px;
+    background-color: #191919;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.inbox_btn button:hover{
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}

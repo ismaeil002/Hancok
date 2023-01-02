@@ -1,0 +1,128 @@
+.pplr_bg{
+    background-color: #191919;
+}
+
+.pplr_left{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.pplr_left::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 63%;
+    bottom: 0;
+    left: 0;
+    background-color: #FF4655;
+    clip-path: polygon(17% 0%, 100% 0, 83% 100%, 0% 100%);
+    z-index: -1;
+}
+
+.pplr_heading{
+    margin-top: 115px;
+}
+
+.pplr_heading h2{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    color: #fff;
+}
+.pplr_heading h3{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.pplr_heading h3::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0px;
+    bottom: 5%;
+    right: 16.5%;
+    background-color: #FF4655;
+    animation: popular 2s linear infinite;
+    -webkit-animation: popular 2s linear infinite;
+}
+
+@keyframes popular{
+    0%{
+        width: 40px;
+    }
+
+    50%{
+        width: 120px;
+    }
+
+    100%{
+        width: 40px;
+    }
+}
+
+.pplr_slider{
+    margin-top: 35px;
+}
+
+.pplr_slider .nxtarw{
+    position: absolute;
+    color: #fff;
+    bottom: 22%;
+    right: 4%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.pplr_slider .nxtarw:hover{
+    color: #FF4655;
+    border-color: #FF4655;
+}
+
+
+.pplr_slider .prearw{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    right: 4%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 2;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+
+.pplr_slider .prearw:hover{
+    color: #FF4655;
+    border-color: #FF4655;
+}

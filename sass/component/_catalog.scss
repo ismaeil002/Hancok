@@ -1,0 +1,84 @@
+.catalog_bg{
+    background-color: #191919;
+    padding-bottom: 90px;
+}
+.catalog_bgtow{
+    background-color: #212121;
+}
+
+.catalog_head h3{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.catalog_text{
+    margin-left: 44px;
+    margin-top: 45px;
+}
+
+.catalog_text h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #FF4655;
+}
+
+.catalog_text h2{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #FFFFFF;
+}.catalog_text p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+.ctlg_btn{
+    margin-bottom: 131px;
+}
+
+.ctlg_btn a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 31px;
+    color: #FFFFFF;
+    background-color: #121212;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.ctlg_btn a:hover{
+    background-color: #FF4655;
+}
+
+.ctlg_slide{
+    position: relative;
+}
+
+.ctlg_slide ul{
+    position: absolute !important;
+
+}
+
+.ctlg_arrow{
+    opacity: 0;
+}

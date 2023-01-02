@@ -1,0 +1,150 @@
+.sale_bg{
+    background-color: #191919;
+}
+
+.sale_heading h2{
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    color: #fff;
+}
+.sale_heading h3{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 46px;
+    position: relative;
+}
+
+.sale_heading h3::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0px;
+    bottom: 5%;
+    right: 18%;
+    background-color: #FF4655;
+    animation: sale 2s linear infinite;
+    -webkit-animation: sale 2s linear infinite;
+}
+
+@keyframes sale{
+    0%{
+        width: 40px;
+    }
+
+    50%{
+        width: 120px;
+    }
+
+    100%{
+        width: 40px;
+    }
+}
+
+.sale_img{
+    position: relative;
+    overflow: hidden;
+}
+
+.sale_img img{
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.sale_overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.sale_overly i{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    height: 30px;
+    width: 30px;
+    background-color: #212121;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.sale_img:hover.sale_img img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.sale_img:hover .sale_overly{
+    opacity: 1;
+}
+
+.sale_text h3{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.07em;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.sale_text h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.sale_offer{
+    display: flex;
+    align-items: center;
+}
+
+.sale_offer h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    padding: 4px 5px;
+    background-color: #FF4655;
+}
+
+.sale_offer strike{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #666666;
+    margin: 0 13px;
+}
+
+.sale_offer span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}

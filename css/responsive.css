@@ -1,0 +1,239 @@
+@media(max-width:767.98px){
+
+    .banner_text h1::after{
+        position: absolute;
+        content: "";
+        left: 99%;
+        bottom: 12%;
+        height: 4px;
+        width: 30px;
+        background-color: #fff;
+        animation: nayna 2s linear infinite;
+        -webkit-animation: nayna 2s linear infinite;
+        display: none;
+    }
+    
+    @keyframes nayna{
+        0%{
+            width: 30px;
+        }
+    
+        50%{
+            width: 90px;
+        }
+    
+        100%{
+            width: 30px;
+        }
+    }
+
+    .banner_text h2{
+        margin-top: 180px;
+    }
+
+    .banner_text p{
+        margin-bottom: 40px;
+    }
+
+    .banner_btn{
+        margin-bottom: 30px;
+    }
+
+    .count_inner{
+        margin-bottom: 0px;
+    }
+
+    .pplr_left{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .matche_count span{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #fff;
+    }
+
+    .acsoris_main .nxtacsoris{
+        right: 0;
+    }
+    .acsoris_main .prevacsoris{
+        top: 42%;
+        left: 0;
+    }
+
+    .inbox_email input{
+        width: 280px;
+    }
+    
+}
+
+@media(max-width:991.98px){
+    .menu i{
+        color: #fff;
+    }
+
+    .menu button{
+        outline: none;
+        border: none;
+    }
+
+    .menu button:focus{
+        box-shadow: none;
+    }
+
+    .menu ul li a.active::after{
+        width: 30%;
+    }
+    .menu ul li a:hover::after{
+        width: 30%;
+    }
+
+
+    .faq_top{
+        border-bottom: none;
+    }
+    
+    .faq_topleft{
+        border-right: none;
+
+    }
+    .faq_btmleft{
+        border-right: none;
+    }
+
+    .inbox_email{
+        padding-bottom: 30px;
+    }
+
+    .inbox_email input{
+        margin-left: 20px;
+    }
+
+    .inbox_btn button{
+        right: 50px;
+    }
+
+
+    .ftr1_text p{
+        margin-bottom: 20px;
+    }
+
+    .frtone_icon{
+        margin-bottom: 30px;
+    }
+
+    .footer_list ul li{
+        margin-top: 15px;
+    }
+    
+    .footer_four{
+        margin-bottom: 30px;
+    }
+
+    .footer_main{
+        padding-bottom: 58px;
+    }
+}
+
+@media(max-width:490px){
+    .ctlg_slide{
+        display: none;
+    }
+
+    .video_btn i{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .video_textlft h4{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .team_icon i{
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:420px){
+    .ctlg_slide{
+        display: none;
+    }
+    .global i{
+        margin-right: 5px;
+        font-size: 10px;
+    }
+
+    .search i{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    .sing_in span{
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .inbox_email input{
+        width: 200px;
+    }
+
+    .about_heading h3::after{
+        display: none;
+    }
+
+    .pplr_heading h3::after{
+        display: none;
+    }
+
+    .video_heading h3::after{
+        display: none;
+    }
+
+    .sale_heading h3::after{
+        display: none;
+    }
+    .acsoris_heading h3::after{
+        display: none;
+    }
+    .team_heading h3::after{
+        display: none;
+    }
+    .faq_heading h3::after{
+        display: none;
+    }
+
+    .inbox_btn button{
+        right: 65px;
+    }
+    
+}

@@ -1,0 +1,134 @@
+.banner_bg{
+    background: url(../images/banner\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_text h2{
+    margin-top: 327px;
+    font-weight: 400;
+    font-size: 27px;
+    color: #fff;
+}
+
+.banner_text h1{
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.banner_text h1::after{
+    position: absolute;
+    content: "";
+    left: 99%;
+    bottom: 12%;
+    height: 4px;
+    width: 30px;
+    background-color: #fff;
+    animation: nayna 2s linear infinite;
+    -webkit-animation: nayna 2s linear infinite;
+}
+
+@keyframes nayna{
+    0%{
+        width: 30px;
+    }
+
+    50%{
+        width: 90px;
+    }
+
+    100%{
+        width: 30px;
+    }
+}
+
+.banner_text p{
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.banner_btn{
+    margin-bottom: 314px;
+}
+
+
+.banner_btn a{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 16px 6px 21px;
+    background-color: #fff;
+    position: relative;
+    color: #121212;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.banner_btn a i{
+    color: aqua;
+    color: #121212;
+    font-size: 13px;
+    padding-left: 3px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.banner_btn a:hover{
+    background-color: #FF4655;
+    color: #fff;
+}
+
+.banner_btn a:hover i{
+    color: #fff;
+}
+
+.bnr_icon{
+    margin-bottom: 103px;
+}
+
+.bnr_icon ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.bnr_icon ul li a{
+    height: 33px;
+    width: 33px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 33px;
+    text-align: center;
+    color: #121212;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+.bnr_icon ul li a:hover{
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    color: #fff;
+    background-color: #FF4655;
+}
