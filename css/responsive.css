@@ -40,7 +40,7 @@
     }
 
     .count_inner{
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     }
 
     .pplr_left{
@@ -182,6 +182,11 @@
         line-height: 25px;
         margin-right: 0px;
     }
+
+    .pplr_slider .prearw{
+        bottom: 6%;
+    }
+
 }
 
 @media(max-width:420px){
